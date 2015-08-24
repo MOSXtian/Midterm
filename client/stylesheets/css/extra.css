@@ -1,0 +1,423 @@
+
+
+
+#body
+{
+margin-right: auto;
+margin-left: auto;
+width:1000px;
+height:auto;
+background-color:#242424;
+border: 3px solid gray;
+}
+
+#li
+{
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	left:100px;
+}
+
+#pos
+{
+	position:relative;
+	left:84px;
+}
+#pos1
+{
+	margin-right: auto;
+	margin-left: auto;
+	margin-right:70px; 
+}
+
+#coverphoto
+{
+	margin-right: auto;
+	margin-left: auto;
+	margin-left: 10px;
+}
+
+#img1
+{
+	width:980;
+	height:500;
+}
+#img3
+{
+	width:180;
+	height:180;
+	padding: 10px 5px 10px 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#img4
+{
+	width:180;
+	height:180;
+	padding: 10px 5px 10px 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+
+
+#ex
+{
+	padding: 0 0 0 0;
+}
+
+#prim
+{
+	border: 5px dotted red;
+	width:180;
+	height:180;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	left: -380px;
+	top:-200px;
+
+}
+
+#carousel
+{
+	width:auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	padding: 0 5% 0 5%;
+	background-color: gray;
+}
+#only
+{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#img2
+{	
+	width:180;
+	height:170;
+
+}
+
+#nav
+{
+	width:700;
+	height:35;
+	background-color: red;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top:-235px;
+	left:80px;
+}
+
+#ad
+{	
+	padding: 0 2px 2px 5px;
+	margin-left: 30px;
+	width:95px;
+	height: 32px;
+}
+
+#cus
+{		
+		font-size: 15px;
+		font-weight: bold;
+		color:black;
+		border: 1px solid black;
+		width: 65px;
+		height:13px;
+}
+
+#d1
+{
+	width: 300px;
+	height: 500px;
+	border:1 solid red;
+	background-color: #101010;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top:-200px;
+	left:-338px;
+	padding: 20px 0 25px 10px;
+}
+
+#dd1
+{
+	font-weight: bold;
+	font-size: 100%;
+	color: pink;
+}
+
+#c1
+{	
+	font-weight: bold;
+	font-size: 100%;
+	color: red;
+}
+
+#d2
+{
+	width: 650px;
+	height: auto;
+	border:1 solid red;
+	background-color: #101010;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top:-748px;
+	left:160px;
+	padding: 20px 10px 25px 10px;
+	font-size: 100%;
+	color:gray;
+}
+
+#gd2
+{
+	width: 950px;
+	height: auto;
+	border:1 solid red;
+	background-color: #000000;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	top:-200px;
+	padding: 20px 10px 60px 10px;
+	font-size: 100%;
+	color:gray;
+}
+
+#search
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	right:90px;
+	top: 5px;
+	padding-left: 106px;
+}
+
+#input
+{
+	height: 30px;
+}
+
+#p
+{	
+	margin-bottom: 15px;
+	background-color: black;
+	border: 1px solid gray;
+	padding: 20px 10px 25px 10px;
+}
+
+#dd2
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:-687px;
+	left:160px;
+}
+
+#cc1
+{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:-200px;
+	left:-338px;
+}
+
+#pics
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+
+#picss
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -210px;
+	margin-left: 500px;
+}
+
+#gdp2
+{
+	width:500px;
+	height:auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+}
+
+#gd3
+{
+	margin-right: auto;
+	margin-left: auto;
+	margin-left: 50px;
+}
+
+#gdd2
+{
+	width: 850px;
+	height: auto;
+	border:3px solid gray;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-left: -200px;
+	padding: 20px 10px 20px 10px;
+	font-size: 100%;
+	color:pink;
+	font-weight: bold;
+}
+
+
+#lol
+{
+	margin-top: 20px;
+	width: 650px;
+	height: 400px;
+}
+
+#lol1
+{
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	color:orange;
+	width: 700px;
+	height: auto;
+
+}
+
+
+#head
+{
+	font-size: 70px;
+	font-weight:bold;
+}
+
+#Last
+{
+	font-family: chiller;
+	font-size: 120px;
+	font-weight:bold;
+	margin-left: 40px;
+	
+}
+
+#navbarr
+{
+background-color:black;
+}
+
+
+#vid {
+
+margin-left:auto;
+margin-right:auto;
+
+
+}
+
+#vid1 {
+
+margin-left:auto;
+margin-right:auto;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+#cust{
+	background-color: red;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border:solid 2px yellow;
+}
+
+#modalb{
+	font-size: 50px;
+	color: white;
+}
+
+#foot{
+	font-size: 17px;
+	color: gray;
+}
+
+#foot1{
+	font-size: 12px;
+	color: yellow;
+}
+
+#tshirt{
+	font-family: chiller;
+	font-size: 100px;
+	color: red;
+}
+
+#ts{
+	height:120px;
+	 width:120px;
+}
+
+#mid{
+	margin-left: 60px;
+}
+
+#md{
+	background-color: red;
+}
+#mc{
+	background-color: black;
+}
+
+#price{
+	color: red;
+}
+#price1{
+	color: yellow;
+}
+
+#contacts{
+	background-color: gray;
+	width: 40%;
+	height: 90%;
+	opacity: 0.8;
+}
+
+
+
+#ff1{
+	color: yellow;
+	font-size: 95%;
+}
+
+#hf1{
+	color: red;
+	font-size: 120%;
+}
+
+#ff11{
+	color: yellow;
+	font-size: 20px;
+	margin-left: 70px;
+}

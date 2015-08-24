@@ -1,0 +1,38 @@
+
+<body class="bg-black" id="bodymain">
+</body>
+
+
+
+
+<template name="index">
+
+<div class="container" ><!-- container-->
+
+<br>
+ {{#if currentUser}}
+        {{>usermain}}
+    {{else}}
+        {{>login}}
+    {{/if}}
+</div>
+
+ </template>
+
+
+
+
+<template name="footer">
+	<hr>
+	<center>
+	<p class="text-muted fg-grayLight">&copy;Metal Madness \m/</p>
+</center>
+</template>
+
+
+
+
+<template name="header">
+    <hr>
+</template>
+

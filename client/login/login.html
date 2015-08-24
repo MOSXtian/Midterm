@@ -1,0 +1,42 @@
+<template name="login">
+
+
+<center>
+{{>header}}
+
+<div class="backg">
+<img src="/w_pic/f1.png" class="back">
+<br>
+<br>
+
+<div class="cell bg-black">
+   <form class="login-form">
+    <!-- Input with clear helper sa form sa login naku -->
+    <label class="fg-gray">Username</label><br>
+    <div class="input-control text" data-role="input">
+        <input type="text" class="login-user" placeholder="username">       
+        <button class="button helper-button clear"><span class="mif-cross mif-ani-shuttle mif-ani-slow"></span></button>
+    </div><br>
+    <!-- Input with reveal helper apil pud ni xD-->
+    <label class="fg-gray">Password</label><br>
+    <div class="input-control password" data-role="input">
+        <input type="password" class="login-password" placeholder="password">
+        <button class="button helper-button reveal"><span class="mif-lock mif-ani-shuttle mif-ani-slow"></span></button>
+    </div>
+        <br>
+        <div class="cell colspan3">
+        <input type="submit" class="button rounded text-shadow">
+        {{>register}}
+        </div>
+    </form><!-- Sa log-in naku ni nga form -->
+</div><!-- Sdiv taas sa form -->
+<br><br>
+</div>
+
+{{>footer}}
+
+</center>
+
+
+
+</template>

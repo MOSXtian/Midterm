@@ -1,0 +1,104 @@
+
+<template name="registration">
+
+<br>
+<div class="container">
+
+{{>header}}
+
+<div class="pb">
+<form class="reg-form">
+ <div class="grid condensed rb" >
+    <div class="row cells4">
+          
+<div class="cell colspan2 forinp "> <!-- 2nd cell-->
+        <br>
+     <!-- sa email input-->
+     <div class="input-control text " data-role="input">
+        <label class="fg-white">E-mail</label>
+        <span class="prepend-icon">@</span>
+        <input  style="width:130%;" type="text" class="user-email" placeholder="E-mail">
+    </div><br>
+    <!-- sa user input-->
+        <br>
+    <div class="input-control text" data-role="input">
+        <label class="fg-white">Username</label>
+        <span class="mif-user prepend-icon"></span>
+        <input style="width:130%;" type="text" class="user-username" placeholder="username">
+    </div><br>
+    <!-- sa password input-->
+        <br>
+    <div class="input-control password" data-role="input">
+        <label class="fg-white">Password</label>
+        <span class="mif-lock prepend-icon"></span>
+        <input style="width:130%;" type="password" class="user-pass" placeholder="password">
+    </div><br>
+        <br>
+</div>
+
+
+
+<div class="cell colspan2 forinp"> <!-- 3rdcell-->
+        <br>
+     <!-- sa name input-->
+     <div class="input-control text" data-role="input">
+        <label class="fg-white">Fullname</label>
+        <span class="mif-info prepend-icon"></span>
+        <input style="width:130%;" type="text" class="user-fullname" placeholder="Name">
+    </div><br>
+    <!-- sa genre input-->
+        <br>
+    <div class="input-control text" data-role="input">
+        <label class="fg-white">Genre</label>
+        <select class="user-genre" style="width:130%;" type="select">
+            <option>Grindcore</option>
+            <option>Death Metal</option>
+            <option>Deathcore</option>
+            <option>Gore Grind</option>
+            <option>Nu-metal</option>
+            <option>Metal</option>
+            <option>Rap Metal</option>
+            <option>Hardcore</option>
+            <option>Post-HardCore</option>
+            <option>Metalcore</option>
+            <option>Pornogrind</option>
+        </select>
+    </div><br>
+    <!-- sa password input-->
+        <br>
+     <div class="input-control text" data-role="input">
+        <label class="fg-white">Gender</label>
+        <select class="user-gender" style="width:130%;" type="select">
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+    </div><br>
+        <br>
+</div>
+
+<center>
+<input type="submit" value="register" class="button rounded text-shadow">
+<a href="{{pathFor 'index'}}" ><button class="button rounded bg-gray fg-white text-shadow ">Cancel</button></a>
+</center>
+    </div>
+  </div>
+
+
+</form>
+</div>
+
+
+{{>footer}}
+
+</div>
+ </template>
+
+
+
+
+
+ <template name="register">
+ 
+ 	<a href="{{pathFor 'registration'}}" ><button class="button rounded bg-gray fg-white text-shadow ">Register</button></a>
+ 
+ </template>
